@@ -3,6 +3,8 @@ name: email_sending
 on:
   schedule:
     - cron: "5  * * * *"
+    
+    workflow_dispatch
 
 jobs:
   email-job:
